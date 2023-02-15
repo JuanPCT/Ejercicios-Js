@@ -1,0 +1,45 @@
+Primer ejercicio
+
+Escribe un programa que lea una lista de números enteros y determine si existe algún par de números consecutivos en la lista tales que la suma de esos dos números sea un número primo. Si existe dicho par, el programa debe imprimir los dos números y la suma de ellos. Si no existe tal par, el programa debe imprimir un mensaje indicando que no se encontró ningún par con dicha propiedad.
+
+Ejemplo:
+
+Entrada: [3, 7, 8, 4, 6, 10, 11]
+Salida: El par (7,8) suma 15, que es primo.
+
+Entrada: [1, 2, 3, 4, 5]
+Salida: No se encontró ningún par de números consecutivos cuya suma sea un número primo.
+
+Segundo ejercicio
+
+Escribe un programa que lea una lista de números enteros y determine el número que aparece más veces en la lista, así como cuántas veces aparece ese número. Si hay varios números que aparecen el mismo número máximo de veces, el programa debe imprimir cualquiera de ellos.
+
+Ejemplo:
+
+Entrada: [3, 7, 8, 4, 6, 10, 7, 7, 11]
+Salida: El número que aparece más veces es el 7, que aparece 3 veces.
+
+Entrada: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Salida: Cada número aparece exactamente una vez.
+
+
+Tercer Ejercicio
+
+Utilice setInterval(), Escribe un programa que solicite al usuario que ingrese un número entero positivo y luego imprima en la consola todos los números enteros desde 1 hasta ese número, en orden ascendente, con un intervalo de un segundo entre cada número impreso.
+
+Ejemplo:
+
+Entrada: 5
+Salida:
+1
+2
+3
+4
+5
+Cuarto ejercicio
+
+Dado un arreglo de números enteros del 1 al N, donde N es la longitud del arreglo, encuentra el número faltante en el arreglo.
+
+Por ejemplo, si el arreglo es [1, 2, 3, 5, 6], entonces el número faltante es 4.
+
+Escribe una función que tome como argumento un arreglo de números enteros y devuelva el número faltante.
