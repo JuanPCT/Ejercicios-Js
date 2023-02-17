@@ -31,7 +31,11 @@ class Alumno{
     }
 
     resultados(){
-        return "El alumno "+this.getNombre+" tuvo la nota "+this.getNota+" por lo tanto "+this.aprobo();
+        return "El alumno "+this.getNombre()+" tuvo la nota "+this.getNota()+" por lo tanto "+this.aprobo();
     }
     
 }
+
+const alumno = new Alumno("Juan",3);
+
+console.log(alumno.resultados());

@@ -6,24 +6,24 @@ class Calculadora{
     }
 
     suma(){
-        return this.valor1+this.valor2;
+        return (parseFloat(this.valor1)+parseFloat(this.valor2));
     }
 
     resta(){
-        return this.valor1-this.valor2;
+        return (parseFloat(this.valor1)-parseFloat(this.valor2));
     }
 
     multiplicacion(){
-        return this.valor1*this.valor2;
+        return (parseFloat(this.valor1)*parseFloat(this.valor2));
     }
 
     division(){
-        return this.valor1/this.valor2;
+        return (parseFloat(this.valor1)/parseFloat(this.valor2));
     }
 }
 
-const x = prompt("Ingrese el valor 1","");
-const y = prompt("Ingrese el valor 2","");
+let x = (prompt("Ingrese el valor 1"));
+let y = (prompt("Ingrese el valor 2"));
 
 const calculadora = new Calculadora(x,y);
 
